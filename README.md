@@ -30,12 +30,11 @@ improving the next run and the larger operating model.
   not repeat dead-end research. GEDCOM, registers, and dependency views are
   generated from the canonical record.
 
-- **[CouncilLogic](https://github.com/apcar/CouncilLogic)** — A local-first,
-  auditable council of heterogeneous language models. OpenAI, Anthropic,
-  Gemini, and Mistral independently propose answers, judge blinded candidates,
-  contribute to deterministic aggregation, and produce a final synthesis. It
-  preserves disagreement, stores the complete run record locally, and leaves
-  consequential judgment with the user.
+- **Model Council** — A reusable deliberation function used across projects
+  when a problem benefits from multiple model perspectives. Its form varies by
+  task: independent research, adversarial review, structured debate, blinded
+  judging, consensus checking, or synthesis. An explicit adjudication layer
+  preserves disagreement and records what survives and why.
 
 - **Artifact production** — A semantic router across several thousand indexed
   visual structures, paired with a gated brief, deck, and template workbench.
@@ -64,10 +63,12 @@ improving the next run and the larger operating model.
 
 ## Public work
 
-- **[CouncilLogic](https://github.com/apcar/CouncilLogic)** — A public-alpha
-  Python implementation of the governed multi-model council above, with a
-  credential-free mock mode, durable local run records, and explicit security
-  and evidence boundaries.
+- **[CouncilLogic](https://github.com/apcar/CouncilLogic)** — The public-alpha
+  tool expression of Model Council: a local-first Python implementation in
+  which heterogeneous providers propose independently, judge blinded
+  candidates, contribute to deterministic aggregation, and produce a final
+  synthesis. Durable local run records and explicit governance boundaries keep
+  the process inspectable; consequential judgment remains with the user.
 
 - **[PageParcel](https://github.com/apcar/PageParcel)** — A local-first browser
   capture extension that turns a page into portable screenshots, structured
