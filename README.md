@@ -30,12 +30,12 @@ improving the next run and the larger operating model.
   not repeat dead-end research. GEDCOM, registers, and dependency views are
   generated from the canonical record.
 
-- **Model Council** — A situational, role-specialized evaluation system.
-  Depending on the problem, it runs as independent research, adversarial
-  review, structured debate, consensus check, judge-and-jury comparison, or
-  synthesis. Roles are tuned to factual grounding, writing register, thesis
-  pressure, decision logic, and architecture; an explicit adjudication layer
-  records what survives and why.
+- **[CouncilLogic](https://github.com/apcar/CouncilLogic)** — A local-first,
+  auditable council of heterogeneous language models. OpenAI, Anthropic,
+  Gemini, and Mistral independently propose answers, judge blinded candidates,
+  contribute to deterministic aggregation, and produce a final synthesis. It
+  preserves disagreement, stores the complete run record locally, and leaves
+  consequential judgment with the user.
 
 - **Artifact production** — A semantic router across several thousand indexed
   visual structures, paired with a gated brief, deck, and template workbench.
@@ -64,7 +64,12 @@ improving the next run and the larger operating model.
 
 ## Public work
 
-- **[PageParcel](https://github.com/apcar/pageparcel)** — A local-first browser
+- **[CouncilLogic](https://github.com/apcar/CouncilLogic)** — A public-alpha
+  Python implementation of the governed multi-model council above, with a
+  credential-free mock mode, durable local run records, and explicit security
+  and evidence boundaries.
+
+- **[PageParcel](https://github.com/apcar/PageParcel)** — A local-first browser
   capture extension that turns a page into portable screenshots, structured
   Markdown, source metadata, and verifiable hashes. Page processing stays
   inspectable and local by design.
