@@ -8,9 +8,9 @@ Most have a user base of one. I describe the machinery here, not the material th
 
 ## Public work
 
-- **[CouncilLogic](https://github.com/apcar/CouncilLogic) · Public alpha** — Compare independent model responses, examine their disagreements, and keep a record of how a conclusion was reached. The local-first Python engine combines blinded judging, deterministic aggregation, bounded execution, and restart recovery. Models contribute judgment; the person retains decision authority.
+- **[CouncilLogic](https://github.com/apcar/CouncilLogic) · Model council · Public alpha** — Submit a question to a heterogeneous council of AI models from different providers. Models answer independently, then evaluate one another’s responses through blinded judging; CouncilLogic combines their rankings through deterministic aggregation. It preserves an auditable run record, including disagreements; people approve paid runs and record final decisions. Its Python engine runs on your machine, calls cloud model APIs, and provides JSON and MCP interfaces for agents.
 
-- **[PageParcel](https://github.com/apcar/PageParcel) · Browser extension** — Preserve a webpage so another person—or an agent—can inspect what was actually there. Packages screenshots, readable and structured Markdown, source context, and integrity hashes into one portable record, processed locally without uploading page contents.
+- **[PageParcel](https://github.com/apcar/PageParcel) · Chrome extension** — Capture webpages as portable evidence records for people and agents. PageParcel packages screenshots, readable and structured page text as Markdown, source context, and SHA-256 integrity hashes into a record that can be inspected and checked later. Annotate screenshots to highlight details, explain changes, and give visual feedback to people or agents. Capture, annotation, and packaging happen locally, without uploading captured page contents to external services.
 
 ## Private systems and pilots
 
