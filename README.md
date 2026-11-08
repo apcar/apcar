@@ -8,13 +8,13 @@ Most have a user base of one. I describe the machinery here, not the material th
 
 ## Public work
 
+- [**Jurors List Transcription Harness**](https://github.com/apcar/HKJurorsListHarness) **· Experimental** — Trace people through historical records without quietly rewriting the source. Built around Hong Kong’s 1854–1941 Jurors Lists, this custom Python harness coordinates independent AI readings, compares them strictly, and sends disagreements through bounded review. It supports diplomatic transcription—preserving spelling, punctuation, and abbreviations as printed—with decisions linked to scans, tracked spending, and offline replay. Uncertain readings stay visible; search-friendly text stays separate from literal transcription.
+
 - **[CouncilLogic](https://github.com/apcar/CouncilLogic) · Model council · Public alpha** — Submit a question to a heterogeneous council of AI models from different providers. Models answer independently, then evaluate one another’s responses through blinded judging; CouncilLogic combines their rankings through deterministic aggregation. It preserves an auditable run record, including disagreements; people approve paid runs and record final decisions. Its Python engine runs on your machine, calls cloud model APIs, and provides JSON and MCP interfaces for agents.
 
 - **[PageParcel](https://github.com/apcar/PageParcel) · Chrome extension** — Capture webpages as portable evidence records for people and agents. PageParcel packages screenshots, readable and structured page text as Markdown, source context, and SHA-256 integrity hashes into a record that can be inspected and checked later. Annotate screenshots to highlight details, explain changes, and give visual feedback to people or agents. Capture, annotation, and packaging happen locally, without uploading captured page contents to external services.
 
 ## Private systems and pilots
-
-- **TickerTape · Working research system** — Make unusual options activity something I can investigate. Reconstructs market observations into inspectable evidence, opens research cases, and tracks paper decisions and later outcomes. Observations, interpretations, and results remain distinct.
 
 - **The Apcar Chronicle · Working research corpus** — Reconstruct a family's history across centuries and countries without losing the sources or filling the gaps with plausible stories. Connects people, events, places, and documents through an evidence graph, with research queues, dependency tracking, and publication views.
 
