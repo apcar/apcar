@@ -18,7 +18,7 @@ Most have a user base of one. I describe the machinery here, not the material th
 
 - **The Apcar Chronicle · Working research corpus** — Reconstruct a family's history across centuries and countries without losing the sources or filling the gaps with plausible stories. Connects people, events, places, and documents through an evidence graph, with research queues, dependency tracking, and publication views.
 
-- **Research Edition Engine · Local AI research workbench** — Turn historical-language scans into traceable research editions. The Grabar (Classical Armenian) pilot combines custom-trained OCR, locally running small language models (SLMs), translation candidates, and a side-by-side review workbench. Model disagreement drives targeted escalation, with each reading linked to its source image.
+- **Diplomatic Translation and Transcription Desk · In development** — Review historical page scans alongside literal transcriptions and working translations, with uncertain readings flagged against the source image. The first pilot focuses on Grabar (Classical Armenian), a demanding test because of its complex grammar and much more limited machine-translation support compared with modern Armenian.
 
 - **SystemsLog · Persistent memory for people and agents** — Carry memory, context, and working state across systems, conversations, files, and agents. A private continuity system built around durable records, attributed contributions, and source-linked retrieval. Corrections enter as timestamped additions, letting context accumulate while preserving the original record.
 
