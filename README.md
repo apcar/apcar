@@ -24,7 +24,7 @@ Most have a user base of one. I describe the machinery here, not the material th
 
 - **Authoring Studio · Local AI authoring app** — Bring book structure, long-form writing, and agent-assisted editing into one Mac workspace. Combines a navigable manuscript map, continuous rich-text editing, structured manuscript import, recoverable revisions, and publication exports. AI editorial changes arrive as reviewable proposals, with the author controlling what enters the manuscript.
 
-- **Impresa Foundry · Domain intelligence and venture discovery** — Index more than a million domain names, then use contextual retrieval, model-assisted screening, and tiered review to investigate promising names, project fits, and business concepts. Human feedback informs versioned review context, with model nominations and acquisition decisions kept distinct.
+- **Impresa Foundry · Domain intelligence and venture discovery** — Index more than a million domain names, then use contextual retrieval, open-weights models fine-tuned for domain screening, and tiered review to investigate promising names, project fits, and business concepts. Human feedback trains versioned, task-specific open-weights models, while model nominations stay separate from acquisition decisions.
 
 Supporting workflows connect research to build roadmaps, route document and presentation work, coordinate agents, and carry decisions between runs.
 
